@@ -22,12 +22,10 @@ public class PrintTwoDigitNumbers
 		" prints the numbers from 10 to 99 in a table\n");
 		printNumbers();
 		System.out.println("\n\n\n");
-
 	}
 
 	// Uses nested loops to print two digit numbers. The outer loop prints the
 	// tens digit. The inner loop prints the units digit.
-    
 	 public void printNumbers()
 	 {
 		for(int outer = 1; outer < 10; outer++)
@@ -37,7 +35,7 @@ public class PrintTwoDigitNumbers
 				System.out.print(outer + "" + inner + "\t");
 			}
 			System.out.println();
-	    }
-	}
+	        }
+	 }
 }
 
